@@ -21,7 +21,7 @@ INSERT INTO audit_cat_error VALUES ('2', 'Trigger UPDATE','Updated', '3', 'f', n
 INSERT INTO audit_cat_error VALUES ('3', 'Trigger DELETE','Deleted', '3', 'f', null);
 
 -- Trigger messages (audit_cat_error.id between 101 and 499) 
-INSERT INTO audit_cat_error VALUES ('100', 'Test trigger', 'Trigger test', '0', 't', 'ws_trg');
+INSERT INTO audit_cat_error VALUES ('100', 'Prueba trigger', 'Trigger test', '0', 't', 'ws_trg');
 INSERT INTO audit_cat_error VALUES ('105', 'There are no nodes types defined in the model', 'Define at least one', '2', 't', null);
 INSERT INTO audit_cat_error VALUES ('110', 'There are no nodes catalog defined in the model', 'Define at least one', '2', 't', null);
 INSERT INTO audit_cat_error VALUES ('115', 'There are no sectors defined in the model', 'Define at least one', '2', 't', null);
