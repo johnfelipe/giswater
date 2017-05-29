@@ -169,7 +169,7 @@ public class GisPanel extends JPanel implements ActionListener, FocusListener  {
 
 		setLayout(new MigLayout("", "[][:225px:300px][40.00][]", "[5px:n][34px:n][][][][10px:n][]"));
 		
-		JLabel lblProjectFolder = new JLabel(BUNDLE.getString("Gis.lblProjectFolder"));
+		JLabel lblProjectFolder = new JLabel(BUNDLE.getString("GisPanel.lblProjectFolder"));
 		add(lblProjectFolder, "cell 0 1,alignx right");
 		
 		JScrollPane scrollPane = new JScrollPane();
@@ -187,7 +187,7 @@ public class GisPanel extends JPanel implements ActionListener, FocusListener  {
 		btnProjectFolder.setFont(new Font("Tahoma", Font.BOLD, 12));
 		btnProjectFolder.setActionCommand("chooseProjectFolder"); 
 		
-		JLabel lblProjectName = new JLabel(BUNDLE.getString("Gis.lblProjectName"));
+		JLabel lblProjectName = new JLabel(BUNDLE.getString("GisPanel.lblProjectName"));
 		add(lblProjectName, "cell 0 2,alignx right");
 		
 		txtProjectName = new JTextField();

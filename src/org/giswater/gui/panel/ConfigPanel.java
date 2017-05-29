@@ -500,7 +500,7 @@ public class ConfigPanel extends JPanel implements ActionListener {
 		add(btnOpenLogFolder, "cell 5 10,growx");
 		btnOpenLogFolder.setActionCommand("openLogFolder");
 		
-		chkAutoconnect = new JCheckBox(BUNDLE.getString("Config.chkConnect")); 
+		chkAutoconnect = new JCheckBox(BUNDLE.getString("ConfigPanel.chkConnect")); 
 		add(chkAutoconnect, "cell 2 13 3 1");
 		chkAutoconnect.setSelected(true);
 		

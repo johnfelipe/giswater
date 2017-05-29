@@ -135,7 +135,7 @@ public class EpaSoftPanel extends JPanel implements ActionListener {
 		panelFileManager.add(chkSubcatchments, "cell 3 0");
 
 		JLabel label = new JLabel();
-		label.setText(BUNDLE.getString("Form.label.text")); 
+		label.setText(BUNDLE.getString("EpaSoftPanel.label.text")); 
 		panelFileManager.add(label, "cell 1 1,alignx right");
 		
 		scrollPane_2 = new JScrollPane();
@@ -160,7 +160,7 @@ public class EpaSoftPanel extends JPanel implements ActionListener {
 		panelFileManager.add(chkExec, "cell 0 2 3 1,alignx left,aligny bottom");
 
 		lblFileRpt = new JLabel();
-		lblFileRpt.setText(BUNDLE.getString("Form.label_1.text")); 
+		lblFileRpt.setText(BUNDLE.getString("EpaSoftPanel.lblFileRpt.text")); 
 		panelFileManager.add(lblFileRpt, "cell 1 3,alignx right");
 		
 		scrollPane_3 = new JScrollPane();
@@ -185,7 +185,7 @@ public class EpaSoftPanel extends JPanel implements ActionListener {
 		panelFileManager.add(chkImport, "cell 0 4 2 1,aligny bottom");
 
 		lblResultName = new JLabel();
-		lblResultName.setText(BUNDLE.getString("Form.label_2.text")); 
+		lblResultName.setText(BUNDLE.getString("EpaSoftPanel.lblResultName.text")); 
 		lblResultName.setName("lbl_project");
 		panelFileManager.add(lblResultName, "cell 1 5,alignx right");
 
